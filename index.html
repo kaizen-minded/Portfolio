@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1><span>M</span>elvin <span>E</span>zell</h1>
+            <p>I'm a full stack web developer located near the DC Metro Area. My love of programming and
+                curosity is constanly growing. I enjoy
+                applying my critical thinking skills and creativity to helping others, so let me help you.</p>
+            <p>
+                <span><a href="mailto:melvin3ezell@gmail.com"><i class="far fa-envelope icon-link"></i></a></span>
+                <span ><a href="https://github.com/kaizen-minded"><i class="fab fa-github icon-link"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/melvin-ezell-44aa339a/"><i class="fab fa-linkedin icon-link"></i></a></span>
+            </p>
+            <p class="seedling">
+                <i class="fas fa-seedling"></i>
+            </p>
+        </section>
+    </header>
+
+    <main class="container">
+
+        <section id="about">
+            <div class="about-container">
+                <div>
+                    <h2>About Me</h2>
+                    <div class="about-info">
+                        <p>
+                            I'm a Full stack Web Developer. I have a serious passion for art and science.
+                            I believe the key to success is A GROWTH mindset.
+                        </p>
+                        <p>
+                            Skills are similiar to plants you can't directly force growth at your own convience.
+                            The best you can do is to consistently provide the optimal enviorment for growth to occur
+                            and give to it time. 
+                        </p>
+                        <p> 
+                            So that means for me constantly reading, building, practicing challenges, and 
+                            watching people better than me (which there are plenty of) and being patiet with myself and 
+                            love the process.
+                        </p>
+                        <p>Currently Reading:</p>
+                        <p>Atomic Habits by James Clear</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bg-green">
+                <h2>Projects</h2>
+            <section class="projects-container">
+                
+                <div class="project-card">
+                    <figure>
+                        <img src="./images/challengeyourself.jpg" alt="" class="card-img">
+                    </figure>
+                    <div class="card-info">
+                        <a href="https://challenge-yourself.herokuapp.com/">Live Link</a>
+                        <a href="https://github.com/kaizen-minded/Challenge-yourself">Github Code</a>
+                        <h3>Challenge Yourself</h3>
+                        <p>We all have goals and challenges in our lives. 
+                            So most times we give ourselves these huges goals, that we never start. 
+                            It's important to break down big big goals into smaller tasks</p>
+                        <div class="tools">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-node"></i>
+                            <img class="jquery-img"src="./images/jquery.png" alt="jQuery Logo">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <figure>
+                        <img src="./images/Bookmarker.jpg" alt="" class="card-img">
+                    </figure>
+                    <div class="card-info">
+                        <a href="https://bookmarker-1.herokuapp.com/">Live Link</a>
+                        <a href="https://github.com/kaizen-minded/Bookmarker">Github Code</a>
+                        <h3>BookMarker</h3>
+                        <p>
+                            Keep track while reading multiple books what page you are on, write notes, and keep track of what books are in your ever-expanding wishlist of books to read.
+                        </p>
+
+                        <div class="tools">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-node"></i>
+                            <i class="fab fa-react"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <figure>
+                        <img src="./images/yourplaceormine.jpg" alt="" class="card-img">
+                    </figure>
+                    <div class="card-info">
+                        <a href="https://kaizen-minded.github.io/YourPlaceOrMine/">Live Link</a>
+                        <a href="https://github.com/kaizen-minded/YourPlaceOrMine">Github Code</a>
+                        <h3>Your Place or Mine</h3>
+                        <p>I wanted to make an app that allows people to connect with people in real life find places of interest easily.This app app allows you to find places to go based on any point bewteen two people.</p>
+                        <div class="tools">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <img class="jquery-img"src="./images/jquery.png" alt="jQuery Logo">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me:</h2>
+                <form action="mailto:melvin3ezell@gmail.com?subject=" method="POST" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <label for="email">Email:</label>
+                    <input type="text" name="mail" id="email" placeholder="Email">
+                    <label for="comment">Comment:</label>
+                    <textarea type="text" 
+                    name="comment" 
+                    id="comment" 
+                    placeholder="Leave a message..." 
+                    cols="50"
+                    rows="9"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+               -->
+    <script src="main.js"></script>
+</body>
+
+</html>
