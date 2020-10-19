@@ -1,4 +1,91 @@
+/* font-family: 'Bebas Neue', cursive; */
 * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ============
+    Typography
+==============*/
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  color: #e7d7bd;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .hero-title {
+    font-size: 7rem;
+  }
+}
+
+.subtitle {
+  color: #e7d7bd;
+  font-size: 1.5rem;
+  width: 400px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 5px solid #e7d7bd;
+  padding: 1em 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #e7d7bd;
+  background: #2e844f;
+  text-transform: uppercase;
+}
+/* ==========
+    Layout
+=============*/
+
+/* Landing */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  background-image: linear-gradient(
+      rgba(34, 23, 24, 0.45),
+      rgba(34, 23, 24, 0.45)
+    ),
+    url(./images/bamboo.jpg);
+  background-size: auto;
+  background-position: top;
+}
+
+.hero-name {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 3em;
+    background-image: url(./images/bamboo.jpg);
+  }
+}
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -437,4 +524,4 @@ section, header {
         color: green;   
     }
 
-}
+} */
